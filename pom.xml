@@ -42,6 +42,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<mainClass>vps.cicd.Application</mainClass>
 					<classifier>${repackage.classifier}</classifier>
 					<image>
 						<builder>paketobuildpacks/builder:tiny</builder>
